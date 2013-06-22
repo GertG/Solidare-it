@@ -1,0 +1,106 @@
+<?php echo $this->doctype(); ?>
+
+<?php $page = $this->page?>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <?php echo $this->headTitle('SoliDARE-it') ?>
+        <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
+
+        <!-- Le styles -->
+        <?php 
+        //echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico')) //
+        echo $this->headLink() //
+        ->prependStylesheet($this->basePath() . '/css/solidare-it.css')
+        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css')
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap-responsive.min.css')
+                        //->prependStylesheet($this->basePath() . '/css/style.css')
+                         ?>
+
+        <!-- Scripts -->
+        <?php echo $this->headScript()->prependFile($this->basePath() . '/js/html5.js', 'text/javascript', array('conditional' => 'lt IE 9',))
+                                      ->prependFile($this->basePath() . '/js/bootstrap.min.js')
+                                      ->prependFile($this->basePath() . '/js/jquery.min.js') ?>
+
+    </head>
+    <body>
+        <div class="header row-fluid">
+        	<div class="span8"><img class="logo" src="<?php echo $this->basePath()?>/img/logo.png" alt="Solidare-It" /></div>
+        	<div class="span3 headerInfo">
+        		<div class="row-fluid">
+        			<span class="span11"><a href="<?php echo $this->basePath()?>/pages/login/index" class="pull-right">login</a></span>
+        			<span class="span1"></span>
+        		</div>
+        		<div class="row-fluid">
+        			<span class="span11"><span class="pull-right"><a href="http://www.facebook.com/pages/Solidare-IT/469548126438387"><img class="social-icon small" src="<?php echo $this->basePath()?>/img/facebook.png"></img></a><img class="social-icon small" src="<?php echo $this->basePath()?>/img/twitter.png"></img></span></span>
+        			<span class="span1"></span>
+        		</div>
+        		<div class="row-fluid">
+        			<div class="span11">
+        				<div class="row-fluid">
+        					<div class="span8 counterHeader"><div class="pull-right">EXCHANGES DONE</div></div>
+        					<div class="span4 counterHeader"><div  class="pull-right">VISITS</div></div>
+        				</div>
+        				<div class="row-fluid">
+        					<div class="span8"><div class="pull-right counter">123</div></div>
+        					<div class="span4"><div  class="pull-right counter">456</div></div>
+        				</div>        				
+        			</div>
+        			<div class="span1"></div>
+        		</div>
+        	</div>
+        	<div class="span1"></div>
+        </div>
+        <div class="navigation row-fluid">
+	        <div class="navbar span8">
+			    <div class="navbar-inner">
+				    <ul class="nav">
+				    
+				    <?php
+				    	echo $this->partial('layout/nav.phtml',
+				    		array("target" => "home", "current" => $page,
+				    			"link" => $this->basePath()."/pages/home/index",
+				    			"text" => "HOME"));
+						echo $this->partial('layout/nav.phtml',
+								array("target" => "concept", "current" => $page,
+										"link" => $this->basePath()."/pages/concept/index",
+										"text" => "CONCEPT"));
+						echo $this->partial('layout/nav.phtml',
+								array("target" => "faq", "current" => $page,
+										"link" => $this->basePath()."/pages/faq/index",
+										"text" => "FAQ"));
+						echo $this->partial('layout/nav.phtml',
+								array("target" => "news", "current" => $page,
+										"link" => $this->basePath()."/pages/news/index",
+										"text" => "NEWS"));
+						echo $this->partial('layout/nav.phtml',
+								array("target" => "contact", "current" => $page,
+										"link" => $this->basePath()."/pages/contact/index",
+										"text" => "CONTACT"));
+				    		?>
+				    
+
+				    </ul>
+			    </div>
+			</div>
+			<div class="span3 searchArea">
+				<form class="navbar-search pull-left span12">
+	    			<input class="span10 offset1 search-query" type="text" class="search-query" placeholder="Search">
+	    		</form>
+    		</div>
+			<div class="span1"></div>
+		</div>
+        <div class="container">
+            <?php echo $this->content; ?>
+            <hr>
+            <footer class="row-fluid">
+                <div class="span1">2013</div>
+                <div class="span2">SOLIDARE-IT!</div>
+                <div class="span7"><span class="pull-right">Legal stuff</span></div>
+                <div class="span2"><span class="pull-left">Site Map</span></div>
+            </footer>
+        </div> <!-- /container -->
+        <?php echo $this->inlineScript() ?>
+    </body>
+</html>
