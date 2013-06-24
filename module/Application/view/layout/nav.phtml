@@ -1,3 +1,3 @@
 <li class="<?php if($this->current == $this->target) echo "active" ?>">
-	<a href="<?php echo $this->link?>"><?php echo $this->text?></a>
+	<a href="<?php echo $this->url('page', array('page' => $this->target))?>"><?php echo $this->text?></a>
 </li>

@@ -59,26 +59,16 @@
 				    
 				    <?php
 				    	echo $this->partial('layout/nav.phtml',
-				    		array("target" => "home", "current" => $page,
-				    			"link" => $this->basePath()."/pages/home/index",
-				    			"text" => "HOME"));
+				    		array("target" => "home", "current" => $page, "text" => "HOME"));
 						echo $this->partial('layout/nav.phtml',
-								array("target" => "concept", "current" => $page,
-										"link" => $this->basePath()."/pages/concept/index",
-										"text" => "CONCEPT"));
+							array("target" => "concept", "current" => $page, "text" => "CONCEPT"));
 						echo $this->partial('layout/nav.phtml',
-								array("target" => "faq", "current" => $page,
-										"link" => $this->basePath()."/pages/faq/index",
-										"text" => "FAQ"));
+							array("target" => "faq", "current" => $page, "text" => "FAQ"));
 						echo $this->partial('layout/nav.phtml',
-								array("target" => "news", "current" => $page,
-										"link" => $this->basePath()."/pages/news/index",
-										"text" => "NEWS"));
+							array("target" => "news", "current" => $page, "text" => "NEWS"));
 						echo $this->partial('layout/nav.phtml',
-								array("target" => "contact", "current" => $page,
-										"link" => $this->basePath()."/pages/contact/index",
-										"text" => "CONTACT"));
-				    		?>
+							array("target" => "contact", "current" => $page, "text" => "CONTACT"));
+				    ?>
 				    
 
 				    </ul>

@@ -156,3 +156,19 @@ a.btn, a.btn-primary{
 	font-weight:bold;
 	height:20px;
 }
+
+.dareIt{
+	padding-top:2px;
+	font-weight:bold;
+}
+
+.dareIt span.light{
+	color:#fff;	
+	font-size:18px;
+	
+}
+
+.dareIt span.dark{
+	color:#000;
+	font-weight:bolder;
+}

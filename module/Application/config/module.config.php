@@ -10,6 +10,15 @@
 return array(
     'router' => array(
         'routes' => array(
+	        'page' => array(
+	            'type'    => 'segment',
+	            'options' => array(
+	                'route'       => '/pages/:page/index',
+	                'constraints' => array(
+	                    'page' => '[a-zA-Z][a-zA-Z0-9_-]*',
+	                ),
+	            )
+	        ),
             'home' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
