@@ -1,0 +1,12 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+
+script: bin/ci_tests
+
+notifications:
+  email:
+    - arne.brasseur@gmail.com
+    - gert.gielen1@gmail.com
