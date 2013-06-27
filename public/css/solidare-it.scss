@@ -45,32 +45,32 @@ $dare_it_light_fg:                    $palette_G1;
 $dare_it_dark_fg:                     $palette_G8;
 
 .logo{
-	height: 100px;
-	padding: 10px;
+  height: 100px;
+  padding: 10px;
 }
 
 .navbar-inner{
-	background-color: $navbar_bg;
-	background-image: none;
+  background-color: $navbar_bg;
+  background-image: none;
 }
 
 .navbar {
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 
   .nav {
     & > .active {
       & > a, & > a:hover, & > a:focus {
-  	    background-color: $navbar_active_bg;
-  	    color:            $navbar_active_fg;
+        background-color: $navbar_active_bg;
+        color:            $navbar_active_fg;
       }
     }
     & > li {
       & > a, & > a:hover, & > a:focus{
-  	    color:            $navbar_li_hover_fg;
-  	    text-shadow:none;
+        color:            $navbar_li_hover_fg;
+        text-shadow:none;
       }
       & > a {
-  	    color:            $navbar_li_fg;
+        color:            $navbar_li_fg;
       }
     }
   }
@@ -80,64 +80,64 @@ $dare_it_dark_fg:                     $palette_G8;
 }
 
 .header {
-	background-color: $header_bg;
+  background-color: $header_bg;
 }
 
 .headerInfo {
-	height: 120px;
-	background-color: rgba(255,255,255,0.5);
+  height: 120px;
+  background-color: rgba(255,255,255,0.5);
 }
 
 .searchArea {
-	background-color: rgba(255,255,255,0.5);
-	height:40px;
+  background-color: rgba(255,255,255,0.5);
+  height:40px;
 }
 
 .navigation {
-	margin-bottom: 20px;
-	background-color: $navigation_bg;
-	border-bottom: 4px solid $navigation_border_color;
+  margin-bottom: 20px;
+  background-color: $navigation_bg;
+  border-bottom: 4px solid $navigation_border_color;
 }
 
 .navbar-inner {
-	border:none;
-	font-weight:bold;
+  border:none;
+  font-weight:bold;
 }
 
 .navbar-search {
-	margin-left:10px;
+  margin-left:10px;
 }
 
 .search-query {
-	border: 1px solid $search_query_border_color;
+  border: 1px solid $search_query_border_color;
 }
 
 .btn-primary {
-	border-radius: 15px;
+  border-radius: 15px;
 }
 
 .pageBlock {
-	border-top:9px solid $page_block_top_border_color;
-	padding: 5px;
+  border-top:9px solid $page_block_top_border_color;
+  padding: 5px;
 }
 
 .pageBlock.primary {
-	border-top-color: $page_block_primary_top_border_color;
+  border-top-color: $page_block_primary_top_border_color;
 }
 
 .pageBlock.bold {
-	border-top-color: $page_block_bold_top_border_color;
-	background-color: $page_block_bold_bg;
+  border-top-color: $page_block_bold_top_border_color;
+  background-color: $page_block_bold_bg;
 }
 
 .pageBlock.dark {
-	border-top-color: $page_block_dark_top_border_color;
-	background-color: $page_block_dark_bg;
-	color:            $page_block_dark_fg;
+  border-top-color: $page_block_dark_top_border_color;
+  background-color: $page_block_dark_bg;
+  color:            $page_block_dark_fg;
 }
 
 .homeHeader {
-	margin-bottom:10px;
+  margin-bottom:10px;
 }
 
 .progress {
@@ -150,40 +150,40 @@ $dare_it_dark_fg:                     $palette_G8;
 }
 
 .progress.challenge {
-	height:30px;
+  height:30px;
 }
 
 .progress.challenge .bar {
-	padding-top:6px;
-	vertical-align:middle;
-	font-size:14px;
-	font-weight:bold;
+  padding-top:6px;
+  vertical-align:middle;
+  font-size:14px;
+  font-weight:bold;
 }
 
 a.btn, a.btn-primary {
-	text-align: center;
-	vertical-align: middle;
-	padding-top:6px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top:6px;
 }
 
 .exclamation {
-	text-align:center;
-	font-weight:bold;
-	margin-bottom:20px;
-	font-size:18px;
+  text-align:center;
+  font-weight:bold;
+  margin-bottom:20px;
+  font-size:18px;
 }
 
 .inscriptionChoice {
-	border: 2px solid $inscription_choice_border_color;
-	padding: 10px;
-	border-radius: 10px;
-	height:100px;
-	margin-bottom: 5px;
-	text-align:center;
+  border: 2px solid $inscription_choice_border_color;
+  padding: 10px;
+  border-radius: 10px;
+  height:100px;
+  margin-bottom: 5px;
+  text-align:center;
 }
 
 .social-icon.small {
-	width:20px;
+  width:20px;
 }
 
 .btn-primary {
@@ -192,29 +192,29 @@ a.btn, a.btn-primary {
 }
 
 .counter {
-	border:1px solid $counter_border_color;
-	padding:0px 3px 0px 3px;
-	color: $counter_fg;
-	font-weight:bold;
-	background-color: $counter_bg;
+  border:1px solid $counter_border_color;
+  padding:0px 3px 0px 3px;
+  color: $counter_fg;
+  font-weight:bold;
+  background-color: $counter_bg;
 }
 
 .counterHeader {
-	font-weight:bold;
-	height:20px;
+  font-weight:bold;
+  height:20px;
 }
 
 .dareIt {
-	padding-top:2px;
-	font-weight:bold;
+  padding-top:2px;
+  font-weight:bold;
 }
 
 .dareIt span.light {
-	color: $dare_it_light_fg;
-	font-size:18px;
+  color: $dare_it_light_fg;
+  font-size:18px;
 }
 
 .dareIt span.dark {
-	color: $dare_it_dark_fg;
-	font-weight:bolder;
+  color: $dare_it_dark_fg;
+  font-weight:bolder;
 }
