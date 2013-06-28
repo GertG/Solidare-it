@@ -1,174 +1,131 @@
-.logo{
-	height:100px;
-	padding:10px;	
-}
+.logo {
+  height: 100px;
+  padding: 10px; }
 
-.navbar-inner{
-	background-color:#ee0092;
-	background-image:none;
-}
+.navbar-inner {
+  background-color: #ee0092;
+  background-image: none; }
 
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
-	background-color:#747476;
-	color:#fff;
-}
-
-.navbar .nav > li > a, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus{
-	color:#343436;
-	text-shadow:none;	
-}
-
-.navbar .nav > li > a{
-	color: #fff;
-}
-
-.navbar{
-	margin-bottom: 0px;
-}
-
-.navigation{
-	margin-bottom: 20px;
-}
-
-.header{
-	background-color: #E0E0E0;
-}
-
-.headerInfo{
-	height: 120px;
-	background-color: rgba(255,255,255,0.5);
-}
-
-.searchArea{
-	background-color: rgba(255,255,255,0.5);
-	height:40px;
-}
-
-.navigation{
-	background-color: #EE0092;
-	border-bottom: 4px solid #747476;
-}
-
-.navbar-inner{
-	border:none;
-	font-weight:bold;
-}
-
-.navbar-search{
-	margin-left:10px;
-}
-
-.search-query{
-	border: 1px solid #747476;
-}
-
-.btn-primary{
-	border-radius: 15px;
-}
-
-.pageBlock{
-	border-top:9px solid #E0E0E0; 
-	padding: 5px;
-}
-
-.pageBlock.primary{
-	border-top-color: #ee0092;
-}
-
-.pageBlock.bold{
-	border-top-color: #747476;
-	background-color: #E0E0E0;
-}
-
-.pageBlock.dark{
-	border-top-color: #747476;
-	background-color: #747476;
-	color: #fff;
-}
-
-.homeHeader{
-	margin-bottom:10px;
-}
-
-.progress {
+.navbar {
+  margin-bottom: 0px; }
+  .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     background-color: #747476;
-    background-image: linear-gradient(to bottom, #787880, #707072);
-}
+    color: white; }
+  .navbar .nav > li > a, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+    color: #343436;
+    text-shadow: none; }
+  .navbar .nav > li > a {
+    color: white; }
 
-.progress .bar {
-    background-color: #ee0092;
-    background-image: linear-gradient(to bottom, #ee0092, #ee0092);
-}
+.header {
+  background-color: #e0e0e0; }
 
-.progress.challenge{
-	height:30px;
-}
+.headerInfo {
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.5); }
 
-.progress.challenge .bar
-{
-	padding-top:6px;
-	vertical-align:middle;
-	font-size:14px;
-	font-weight:bold;
-}
+.searchArea {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 40px; }
 
-a.btn, a.btn-primary{
-	text-align: center;
-	vertical-align: middle;
-	padding-top:6px;
-}
+.navigation {
+  margin-bottom: 20px;
+  background-color: #ee0092;
+  border-bottom: 4px solid #747476; }
 
-.exclamation{
-	text-align:center;
-	font-weight:bold;
-	margin-bottom:20px;
-	font-size:18px;
-}
+.navbar-inner {
+  border: none;
+  font-weight: bold; }
 
-.inscriptionChoice{
-	border: 2px solid #747476;
-	padding: 10px;
-	border-radius: 10px;
-	height:100px;
-	margin-bottom: 5px;
-	text-align:center;
-}
+.navbar-search {
+  margin-left: 10px; }
 
-.social-icon.small{
-	width:20px;
-}
+.search-query {
+  border: 1px solid #747476; }
 
 .btn-primary {
-    background-color: #EE0072;
-    background-image: linear-gradient(to bottom, #EE0072, #EE0072);
-	font-weight:bold;
-}
+  border-radius: 15px; }
 
-.counter{
-	border:1px solid #B5B5B5;
-	padding:0px 3px 0px 3px;
-	color:#ee0092;
-	font-weight:bold;
-	background-color:#fff;
-}
+.pageBlock {
+  border-top: 9px solid #e0e0e0;
+  padding: 5px; }
 
-.counterHeader{
-	font-weight:bold;
-	height:20px;
-}
+.pageBlock.primary {
+  border-top-color: #ee0092; }
 
-.dareIt{
-	padding-top:2px;
-	font-weight:bold;
-}
+.pageBlock.bold {
+  border-top-color: #747476;
+  background-color: #e0e0e0; }
 
-.dareIt span.light{
-	color:#fff;	
-	font-size:18px;
-	
-}
+.pageBlock.dark {
+  border-top-color: #747476;
+  background-color: #747476;
+  color: white; }
 
-.dareIt span.dark{
-	color:#000;
-	font-weight:bolder;
-}
+.homeHeader {
+  margin-bottom: 10px; }
+
+.progress {
+  background-color: #747476;
+  background-image: linear-gradient(to bottom, #787880, #707072); }
+
+.progress .bar {
+  background-color: #ee0092; }
+
+.progress.challenge {
+  height: 30px; }
+
+.progress.challenge .bar {
+  padding-top: 6px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold; }
+
+a.btn, a.btn-primary {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 6px; }
+
+.exclamation {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 18px; }
+
+.inscriptionChoice {
+  border: 2px solid #747476;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100px;
+  margin-bottom: 5px;
+  text-align: center; }
+
+.social-icon.small {
+  width: 20px; }
+
+.btn-primary {
+  background-color: #ee0072;
+  font-weight: bold; }
+
+.counter {
+  border: 1px solid #b5b5b5;
+  padding: 0px 3px 0px 3px;
+  color: #ee0092;
+  font-weight: bold;
+  background-color: white; }
+
+.counterHeader {
+  font-weight: bold;
+  height: 20px; }
+
+.dareIt {
+  padding-top: 2px;
+  font-weight: bold; }
+
+.dareIt span.light {
+  color: white;
+  font-size: 18px; }
+
+.dareIt span.dark {
+  color: black;
+  font-weight: bolder; }

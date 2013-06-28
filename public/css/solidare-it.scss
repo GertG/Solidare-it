@@ -1,0 +1,220 @@
+$palette_A1: #EE0092;
+$palette_A2: #EE0072;
+
+$palette_G1: #FFFFFF;
+$palette_G2: #E0E0E0;
+$palette_G3: #B5B5B5;
+$palette_G4: #787880;
+$palette_G5: #747476;
+$palette_G6: #707072;
+$palette_G7: #343436;
+$palette_G8: #000000;
+
+$navbar_bg:                           $palette_A1;
+$navbar_active_bg:                    $palette_G5;
+$navbar_active_fg:                    $palette_G1;
+$navbar_li_fg:                        $palette_G1;
+$navbar_li_hover_fg:                  $palette_G7;
+
+$header_bg:                           $palette_G2;
+$navigation_bg:                       $palette_A1;
+$navigation_border_color:             $palette_G5;
+$search_query_border_color:           $palette_G5;
+
+$page_block_top_border_color:         $palette_G2;
+$page_block_primary_top_border_color: $palette_A1;
+$page_block_bold_top_border_color:    $palette_G5;
+$page_block_bold_bg:                  $palette_G2;
+$page_block_dark_top_border_color:    $palette_G5;
+$page_block_dark_bg:                  $palette_G5;
+$page_block_dark_fg:                  $palette_G1;
+
+$progress_bg:                         $palette_G5;
+$progress_bg_start:                   $palette_G4;
+$progress_bg_end:                     $palette_G6;
+$progress_bar_bg:                     $palette_A1;
+
+$inscription_choice_border_color:     $palette_G5;
+$button_primary_bg:                   $palette_A2;
+
+$counter_fg:                          $palette_A1;
+$counter_bg:                          $palette_G1;
+$counter_border_color:                $palette_G3;
+
+$dare_it_light_fg:                    $palette_G1;
+$dare_it_dark_fg:                     $palette_G8;
+
+.logo{
+  height: 100px;
+  padding: 10px;
+}
+
+.navbar-inner{
+  background-color: $navbar_bg;
+  background-image: none;
+}
+
+.navbar {
+  margin-bottom: 0px;
+
+  .nav {
+    & > .active {
+      & > a, & > a:hover, & > a:focus {
+        background-color: $navbar_active_bg;
+        color:            $navbar_active_fg;
+      }
+    }
+    & > li {
+      & > a, & > a:hover, & > a:focus{
+        color:            $navbar_li_hover_fg;
+        text-shadow:none;
+      }
+      & > a {
+        color:            $navbar_li_fg;
+      }
+    }
+  }
+}
+
+.navigation {
+}
+
+.header {
+  background-color: $header_bg;
+}
+
+.headerInfo {
+  height: 120px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.searchArea {
+  background-color: rgba(255,255,255,0.5);
+  height:40px;
+}
+
+.navigation {
+  margin-bottom: 20px;
+  background-color: $navigation_bg;
+  border-bottom: 4px solid $navigation_border_color;
+}
+
+.navbar-inner {
+  border:none;
+  font-weight:bold;
+}
+
+.navbar-search {
+  margin-left:10px;
+}
+
+.search-query {
+  border: 1px solid $search_query_border_color;
+}
+
+.btn-primary {
+  border-radius: 15px;
+}
+
+.pageBlock {
+  border-top:9px solid $page_block_top_border_color;
+  padding: 5px;
+}
+
+.pageBlock.primary {
+  border-top-color: $page_block_primary_top_border_color;
+}
+
+.pageBlock.bold {
+  border-top-color: $page_block_bold_top_border_color;
+  background-color: $page_block_bold_bg;
+}
+
+.pageBlock.dark {
+  border-top-color: $page_block_dark_top_border_color;
+  background-color: $page_block_dark_bg;
+  color:            $page_block_dark_fg;
+}
+
+.homeHeader {
+  margin-bottom:10px;
+}
+
+.progress {
+    background-color: $progress_bg;
+    background-image: linear-gradient(to bottom, $progress_bg_start, $progress_bg_end);
+}
+
+.progress .bar {
+    background-color: $progress_bar_bg;
+}
+
+.progress.challenge {
+  height:30px;
+}
+
+.progress.challenge .bar {
+  padding-top:6px;
+  vertical-align:middle;
+  font-size:14px;
+  font-weight:bold;
+}
+
+a.btn, a.btn-primary {
+  text-align: center;
+  vertical-align: middle;
+  padding-top:6px;
+}
+
+.exclamation {
+  text-align:center;
+  font-weight:bold;
+  margin-bottom:20px;
+  font-size:18px;
+}
+
+.inscriptionChoice {
+  border: 2px solid $inscription_choice_border_color;
+  padding: 10px;
+  border-radius: 10px;
+  height:100px;
+  margin-bottom: 5px;
+  text-align:center;
+}
+
+.social-icon.small {
+  width:20px;
+}
+
+.btn-primary {
+    background-color: $button_primary_bg;
+    font-weight:bold;
+}
+
+.counter {
+  border:1px solid $counter_border_color;
+  padding:0px 3px 0px 3px;
+  color: $counter_fg;
+  font-weight:bold;
+  background-color: $counter_bg;
+}
+
+.counterHeader {
+  font-weight:bold;
+  height:20px;
+}
+
+.dareIt {
+  padding-top:2px;
+  font-weight:bold;
+}
+
+.dareIt span.light {
+  color: $dare_it_light_fg;
+  font-size:18px;
+}
+
+.dareIt span.dark {
+  color: $dare_it_dark_fg;
+  font-weight:bolder;
+}
