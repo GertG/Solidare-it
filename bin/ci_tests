@@ -1,0 +1,2 @@
+#!/bin/sh
+phpunit --configuration module/Pages/tests/phpunit.xml
